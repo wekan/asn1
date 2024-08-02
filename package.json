@@ -6,24 +6,14 @@
     "Yunong Xiao <yunong@joyent.com>",
     "Alex Wilson <alex.wilson@joyent.com>"
   ],
-  "name": "@ldapjs/asn1",
+  "name": "@wekanteam/asn1",
   "description": "Contains parsers and serializers for ASN.1 (currently BER only)",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ldapjs/asn1.git"
+    "url": "git://github.com/wekan/asn1.git"
   },
   "main": "index.js",
-  "devDependencies": {
-    "@fastify/pre-commit": "^2.0.2",
-    "eslint": "^8.34.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "tap": "^16.3.4"
-  },
   "scripts": {
     "lint": "eslint .",
     "lint:ci": "eslint .",
@@ -32,9 +22,5 @@
     "test:cov:html": "tap --coverage-report=html",
     "test:watch": "tap -w --no-coverage-report"
   },
-  "license": "MIT",
-  "pre-commit": [
-    "lint",
-    "test"
-  ]
+  "license": "MIT"
 }
